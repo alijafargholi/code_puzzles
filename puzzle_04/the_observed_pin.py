@@ -42,7 +42,3 @@ def get_pins(observed):
     result = [''.join(i) for i in itertools.product(*combination_possibilities)]
 
     return result
-
-
-if __name__ == '__main__':
-    get_pins('369')
